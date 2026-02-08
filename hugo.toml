@@ -1,12 +1,11 @@
 baseURL = 'https://psluaces.github.io/'
 languageCode = 'en-us'
 title = 'Pablo Santos Luaces'
-theme = 'PaperMod'
+theme = 'Terminal'
 [pagination]
   pagerSize = 10
 
 [params]
-  defaultTheme = "auto"
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
@@ -17,7 +16,7 @@ theme = 'PaperMod'
 
   [params.homeInfoParams]
     Title = "Pablo Santos Luaces"
-    Content = "Software engineering, product, and version control."
+    Content = "I founded Plastic SCM, a version control system used by game studios, Fortune 500 companies, and research organizations — acquired by Unity Technologies in 2020. I build developer tools and write about making software products."
 
   [[params.socialIcons]]
     name = "twitter"
@@ -29,7 +28,42 @@ theme = 'PaperMod'
 
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/psluaces"
+    url = "https://github.com/psantosl"
+
+  [[params.products]]
+    name = "plastic_scm"
+    description = "Version control for game studios and large teams. Acquired by Unity in 2020."
+    icon = "git-branch"
+    status = "acquired"
+    url = "https://www.plasticscm.com"
+
+  [[params.products]]
+    name = "gitmergetool.com"
+    description = "Browser-based merge tool for GitHub. Resolve conflicts without leaving the browser."
+    icon = "git-merge"
+    status = "active"
+    url = "https://gitmergetool.com"
+
+  [[params.products]]
+    name = "laps.racing"
+    description = "Strava for motorsport. Track your lap times and racing performance."
+    icon = "flag"
+    status = "active"
+    url = "https://laps.racing"
+
+  [[params.products]]
+    name = "rows.life"
+    description = "Time tracker and life journal. Born from 16 years of logging every hour."
+    icon = "timer"
+    status = "active"
+    url = "https://rows.life"
+
+  [[params.products]]
+    name = "papervault.io"
+    description = "Version control for Word documents. Stop emailing files back and forth."
+    icon = "file-text"
+    status = "active"
+    url = "https://papervault.io"
 
 [menu]
   [[menu.main]]
@@ -45,4 +79,13 @@ theme = 'PaperMod'
     weight = 20
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS"]
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    lineNos = false
+    guessSyntax = true
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

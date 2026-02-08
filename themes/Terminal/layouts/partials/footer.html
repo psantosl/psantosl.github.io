@@ -1,0 +1,26 @@
+<div class="divider"></div>
+<footer class="site-footer">
+  <div class="footer-top">
+    <a href="{{ "/" | relURL }}" class="footer-logo">
+      <span class="prompt">~</span>
+      <span class="site-name">{{ lower .Site.Title }}</span>
+    </a>
+    <div class="footer-social">
+      {{ range .Site.Params.socialIcons }}
+        {{ if eq .name "twitter" }}
+          <a href="{{ .url }}" target="_blank" rel="noopener">@psluaces</a>
+        {{ else if eq .name "github" }}
+          <a href="{{ .url }}" target="_blank" rel="noopener">github.com/psluaces</a>
+        {{ else if eq .name "linkedin" }}
+          <a href="{{ .url }}" target="_blank" rel="noopener">linkedin.com/in/psantosl</a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">// based in spain. building things since 2005.</span>
+    {{ with .OutputFormats.Get "rss" }}
+      <a href="{{ .Permalink }}" class="footer-rss">rss</a>
+    {{ end }}
+  </div>
+</footer>

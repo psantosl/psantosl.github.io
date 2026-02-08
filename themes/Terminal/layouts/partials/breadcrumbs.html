@@ -1,0 +1,9 @@
+<nav class="breadcrumbs">
+  <a href="{{ "/" | relURL }}">~</a>
+  <span class="sep">/</span>
+  {{ if .Section }}
+    <a href="{{ (printf "/%s/" .Section) | relURL }}">{{ .Section }}</a>
+    <span class="sep">/</span>
+  {{ end }}
+  <span class="current">{{ .Title | urlize | truncate 30 "" }}</span>
+</nav>

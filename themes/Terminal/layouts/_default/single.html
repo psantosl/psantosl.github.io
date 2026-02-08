@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="post-header">
+  {{ partial "breadcrumbs.html" . }}
+  <h1 class="post-title">{{ .Title }}</h1>
+  {{ partial "post_meta.html" . }}
+</div>
+
+<div class="divider"></div>
+
+<article class="article-body">
+  {{ .Content }}
+</article>
+
+{{ if .Site.Params.ShowPostNavLinks }}
+  {{ partial "post_nav_links.html" . }}
+{{ end }}
+{{ end }}

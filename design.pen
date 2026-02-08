@@ -73,7 +73,8 @@
                   "fill": "#A3A3A3",
                   "content": "posts",
                   "fontFamily": "JetBrains Mono",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "text",
@@ -82,7 +83,8 @@
                   "fill": "#A3A3A3",
                   "content": "about",
                   "fontFamily": "JetBrains Mono",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "icon_font",
@@ -137,14 +139,15 @@
               "fill": "#737373",
               "content": "// software engineering, product, and version control",
               "fontFamily": "JetBrains Mono",
-              "fontSize": 13
+              "fontSize": 13,
+              "fontWeight": "normal"
             },
             {
               "type": "text",
               "id": "VcvUk",
               "name": "heroName",
               "fill": "#E5E5E5",
-              "content": "pablo santos luaces",
+              "content": "Pablo Santos Luaces",
               "fontFamily": "JetBrains Mono",
               "fontSize": 48,
               "fontWeight": "600"
@@ -156,10 +159,11 @@
               "fill": "#A3A3A3",
               "textGrowth": "fixed-width",
               "width": 800,
-              "content": "i founded plastic scm, a version control system used by game studios, fortune 500 companies, and research organizations — acquired by unity technologies in 2020. i build developer tools and write about making software products.",
+              "content": "I founded Plastic SCM, a version control system used by game studios, Fortune 500 companies, and research organizations — acquired by Unity Technologies in 2020. I build developer tools and write about making software products.",
               "lineHeight": 1.7,
               "fontFamily": "JetBrains Mono",
-              "fontSize": 15
+              "fontSize": 15,
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -233,7 +237,8 @@
                       "fill": "#A3A3A3",
                       "content": "about_me",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -322,7 +327,7 @@
                       "id": "PkmJF",
                       "name": "post1Title",
                       "fill": "#E5E5E5",
-                      "content": "track prompt provenance in version control",
+                      "content": "Track Prompt Provenance in Version Control",
                       "fontFamily": "JetBrains Mono",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -334,7 +339,8 @@
                       "fill": "#525252",
                       "content": "2025-12-10",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -362,7 +368,7 @@
                       "id": "uyZUd",
                       "name": "post2Title",
                       "fill": "#E5E5E5",
-                      "content": "merges desmitificados",
+                      "content": "Merges desmitificados",
                       "fontFamily": "JetBrains Mono",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -374,7 +380,8 @@
                       "fill": "#525252",
                       "content": "2025-11-05",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -402,7 +409,7 @@
                       "id": "kYA4B",
                       "name": "post3Title",
                       "fill": "#E5E5E5",
-                      "content": "de scrum a kanban — cómo entregamos tareas el doble de rápido",
+                      "content": "De Scrum a Kanban — cómo entregamos tareas el doble de rápido",
                       "fontFamily": "JetBrains Mono",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -414,7 +421,8 @@
                       "fill": "#525252",
                       "content": "2019-03-21",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -442,7 +450,7 @@
                       "id": "SZ3ZE",
                       "name": "post4Title",
                       "fill": "#E5E5E5",
-                      "content": "el negocio del software para programadores",
+                      "content": "El negocio del software para programadores",
                       "fontFamily": "JetBrains Mono",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -454,7 +462,8 @@
                       "fill": "#525252",
                       "content": "2018-09-23",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -482,7 +491,7 @@
                       "id": "zAxod",
                       "name": "post5Title",
                       "fill": "#E5E5E5",
-                      "content": "plastic scm vs git",
+                      "content": "Plastic SCM vs Git",
                       "fontFamily": "JetBrains Mono",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -494,7 +503,8 @@
                       "fill": "#525252",
                       "content": "2018-03-15",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -522,7 +532,7 @@
                       "id": "pNcsu",
                       "name": "post6Title",
                       "fill": "#E5E5E5",
-                      "content": "agendas creativas y ejecutivas: por qué las reuniones destrozan a los programadores",
+                      "content": "Agendas creativas y ejecutivas: por qué las reuniones destrozan a los programadores",
                       "fontFamily": "JetBrains Mono",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -534,7 +544,8 @@
                       "fill": "#525252",
                       "content": "2018-01-22",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -617,10 +628,11 @@
                       "fill": "#737373",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "version control for game studios and large teams. acquired by unity in 2020.",
+                      "content": "Version control for game studios and large teams. Acquired by Unity in 2020.",
                       "lineHeight": 1.6,
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -629,7 +641,8 @@
                       "fill": "#F59E0B",
                       "content": "// acquired",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 11
+                      "fontSize": 11,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -671,10 +684,11 @@
                       "fill": "#737373",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "browser-based merge tool for github. resolve conflicts without leaving the browser.",
+                      "content": "Browser-based merge tool for GitHub. Resolve conflicts without leaving the browser.",
                       "lineHeight": 1.6,
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -683,7 +697,8 @@
                       "fill": "#22C55E",
                       "content": "// active",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 11
+                      "fontSize": 11,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -725,10 +740,11 @@
                       "fill": "#737373",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "strava for motorsport. track your lap times and racing performance.",
+                      "content": "Strava for motorsport. Track your lap times and racing performance.",
                       "lineHeight": 1.6,
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -737,7 +753,8 @@
                       "fill": "#22C55E",
                       "content": "// active",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 11
+                      "fontSize": 11,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -779,10 +796,11 @@
                       "fill": "#737373",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "time tracker and life journal. born from 16 years of logging every hour.",
+                      "content": "Time tracker and life journal. Born from 16 years of logging every hour.",
                       "lineHeight": 1.6,
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -791,7 +809,8 @@
                       "fill": "#22C55E",
                       "content": "// active",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 11
+                      "fontSize": 11,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -833,10 +852,11 @@
                       "fill": "#737373",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "version control for word documents. stop emailing files back and forth.",
+                      "content": "Version control for Word documents. Stop emailing files back and forth.",
                       "lineHeight": 1.6,
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -845,7 +865,8 @@
                       "fill": "#22C55E",
                       "content": "// active",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 11
+                      "fontSize": 11,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -925,7 +946,8 @@
                       "fill": "#525252",
                       "content": "@psluaces",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -934,7 +956,8 @@
                       "fill": "#525252",
                       "content": "github.com/psluaces",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -943,7 +966,8 @@
                       "fill": "#525252",
                       "content": "linkedin.com/in/psantosl",
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -964,7 +988,8 @@
                   "fill": "#525252",
                   "content": "// based in spain. building things since 2005.",
                   "fontFamily": "JetBrains Mono",
-                  "fontSize": 11
+                  "fontSize": 11,
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "text",
@@ -977,6 +1002,1620 @@
                   "fontWeight": "500"
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "1p27L",
+      "x": 1540,
+      "y": 0,
+      "name": "Blog Post",
+      "width": 1440,
+      "fill": "#0C0C0C",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "gkQ94",
+          "name": "Header",
+          "width": "fill_container",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#1F1F1F"
+          },
+          "padding": [
+            20,
+            120
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "3Ijqe",
+              "name": "logoSec",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fmtYZ",
+                  "name": "pr",
+                  "fill": "#22C55E",
+                  "content": "~",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 18,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "My7oo",
+                  "name": "sn",
+                  "fill": "#E5E5E5",
+                  "content": "pablo santos luaces",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UnkIc",
+              "name": "navSec",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MwHTL",
+                  "name": "np",
+                  "fill": "#A3A3A3",
+                  "content": "posts",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 13
+                },
+                {
+                  "type": "text",
+                  "id": "ihy8H",
+                  "name": "na",
+                  "fill": "#A3A3A3",
+                  "content": "about",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 13
+                },
+                {
+                  "type": "icon_font",
+                  "id": "jiY68",
+                  "name": "ng",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "github",
+                  "iconFontFamily": "lucide",
+                  "fill": "#737373"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "z8epA",
+                  "name": "nt",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "twitter",
+                  "iconFontFamily": "lucide",
+                  "fill": "#737373"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "q9hs0",
+                  "name": "nl",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "linkedin",
+                  "iconFontFamily": "lucide",
+                  "fill": "#737373"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "YPi0Z",
+          "name": "Post Header",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            48,
+            320,
+            32,
+            320
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Ka3zE",
+              "name": "breadcrumb",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tpVxK",
+                  "name": "bcHome",
+                  "fill": "#22C55E",
+                  "content": "~",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "ztElv",
+                  "name": "bcSep1",
+                  "fill": "#525252",
+                  "content": "/",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12
+                },
+                {
+                  "type": "text",
+                  "id": "OPl0p",
+                  "name": "bcPosts",
+                  "fill": "#737373",
+                  "content": "posts",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12
+                },
+                {
+                  "type": "text",
+                  "id": "w6m3J",
+                  "name": "bcSep2",
+                  "fill": "#525252",
+                  "content": "/",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12
+                },
+                {
+                  "type": "text",
+                  "id": "lfAKQ",
+                  "name": "bcCurrent",
+                  "fill": "#A3A3A3",
+                  "content": "track-prompt-provenance",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "12egS",
+              "name": "postTitle",
+              "fill": "#E5E5E5",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Track Prompt Provenance in Version Control",
+              "lineHeight": 1.3,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 36,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "YiXw4",
+              "name": "metaRow",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Nn8BT",
+                  "name": "metaDate",
+                  "fill": "#525252",
+                  "content": "2025-12-10",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12
+                },
+                {
+                  "type": "text",
+                  "id": "cZoNf",
+                  "name": "metaDot",
+                  "fill": "#525252",
+                  "content": "·",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12
+                },
+                {
+                  "type": "text",
+                  "id": "pWqly",
+                  "name": "metaTime",
+                  "fill": "#525252",
+                  "content": "5 min read",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "TAkva",
+          "name": "dividerPost",
+          "fill": "#1F1F1F",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "16HCx",
+          "name": "Article Body",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            40,
+            320
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "Y8L15",
+              "name": "intro",
+              "fill": "#A3A3A3",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "With tons of code now created with the \"help\" of AI assistants, version control tools probably need to adapt and precisely track which lines, functions, or changes are AI-generated vs human-written. Going one step further, they should also track the prompts that produced that code, either directly, or via a hashed/sanitized representation.",
+              "lineHeight": 1.8,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 14
+            },
+            {
+              "type": "text",
+              "id": "dvX7W",
+              "name": "intro2",
+              "fill": "#A3A3A3",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Storing prompt provenance inside the history would provide context for blame/annotate, would improve long-term understanding, and open new dimensions for audit, compliance, refactoring, and risk assessment.",
+              "lineHeight": 1.8,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 14
+            },
+            {
+              "type": "frame",
+              "id": "WYkFI",
+              "name": "Section 1",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PsacG",
+                  "name": "s1title",
+                  "fill": "#22C55E",
+                  "content": "## 1. Why provenance matters",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 20,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "aekmO",
+                  "name": "s1body",
+                  "fill": "#A3A3A3",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Today, code generated by AI is indistinguishable from human code at the version-control level. But teams still need to answer:",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 14
+                },
+                {
+                  "type": "frame",
+                  "id": "FWk8x",
+                  "name": "s1list",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    0,
+                    0,
+                    0,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xVoMK",
+                      "name": "s1l1",
+                      "fill": "#737373",
+                      "content": "— Where did this function come from?",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rU2Pu",
+                      "name": "s1l2",
+                      "fill": "#737373",
+                      "content": "— Was it written by a human or an AI assistant?",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "s0Zdu",
+                      "name": "s1l3",
+                      "fill": "#737373",
+                      "content": "— Which model was involved? Under what prompt?",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "88T25",
+                      "name": "s1l4",
+                      "fill": "#737373",
+                      "content": "— Do sensitive components contain unreviewed AI logic?",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "MC84n",
+                  "name": "s1closing",
+                  "fill": "#E5E5E5",
+                  "content": "Eventually, provenance will be as fundamental as authorship.",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XOFj3",
+              "name": "Section 2",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pafQJ",
+                  "name": "s2title",
+                  "fill": "#22C55E",
+                  "content": "## 2. Improved annotate/blame",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 20,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "TmM42",
+                  "name": "s2body",
+                  "fill": "#A3A3A3",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Traditional annotate/blame shows who last modified a line and when, but not how or why that code came to be. Prompt provenance allows richer insight:",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 14
+                },
+                {
+                  "type": "frame",
+                  "id": "hXoEc",
+                  "name": "s2quote",
+                  "width": "fill_container",
+                  "fill": "#171717",
+                  "cornerRadius": 4,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": {
+                      "left": 3
+                    },
+                    "fill": "#22C55E"
+                  },
+                  "padding": [
+                    16,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aOl8A",
+                      "name": "s2quoteText",
+                      "fill": "#E5E5E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "&quot;This function originated from AI suggestion X, edited twice by humans, and regenerated using model Y last month.&quot;",
+                      "lineHeight": 1.7,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "YRdom",
+                  "name": "s2closing",
+                  "fill": "#E5E5E5",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "This turns annotate into a timeline of intent, not just a timestamped diff.",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PvgLx",
+              "name": "Section 3",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RAnB5",
+                  "name": "s3title",
+                  "fill": "#22C55E",
+                  "content": "## 3. Compliance and governance",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 20,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "vqCmW",
+                  "name": "s3body",
+                  "fill": "#A3A3A3",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "In regulated environments or contractual scenarios, organizations may need proof of human review for sensitive modules, detection of code generated by non-approved models, and controls on where AI can be used.",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 14
+                },
+                {
+                  "type": "frame",
+                  "id": "LEefb",
+                  "name": "s3quote",
+                  "width": "fill_container",
+                  "fill": "#171717",
+                  "cornerRadius": 4,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": {
+                      "left": 3
+                    },
+                    "fill": "#22C55E"
+                  },
+                  "padding": [
+                    16,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jkAfw",
+                      "name": "s3quoteText",
+                      "fill": "#E5E5E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "&quot;AI-generated changes touching security code must require two reviewers and full test coverage.&quot;",
+                      "lineHeight": 1.7,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ewXba",
+                  "name": "s3closing",
+                  "fill": "#E5E5E5",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Version control becomes a policy engine, not just a storage mechanism.",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "boNR1",
+          "name": "dividerNav",
+          "fill": "#1F1F1F",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "PgaCO",
+          "name": "Post Navigation",
+          "width": "fill_container",
+          "padding": [
+            32,
+            320
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "5KIGH",
+              "name": "prevPost",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tyH6S",
+                  "name": "prevLabel",
+                  "fill": "#525252",
+                  "content": "← previous_post",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11
+                },
+                {
+                  "type": "text",
+                  "id": "UiAeD",
+                  "name": "prevTitle",
+                  "fill": "#E5E5E5",
+                  "content": "Merges desmitificados",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gYJ9Z",
+              "name": "nextPost",
+              "layout": "vertical",
+              "gap": 6,
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "yLqHG",
+                  "name": "nextLabel",
+                  "fill": "#525252",
+                  "content": "next_post →",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11
+                },
+                {
+                  "type": "text",
+                  "id": "JqOu6",
+                  "name": "nextTitle",
+                  "fill": "#737373",
+                  "content": "// no newer posts",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 13
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "yadeg",
+          "name": "dividerFt",
+          "fill": "#1F1F1F",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "K9kma",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#0C0C0C",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            48,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Ted2z",
+              "name": "ftTop",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "1NUVo",
+                  "name": "ftLogo",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "9TX95",
+                      "name": "ftPr",
+                      "fill": "#22C55E",
+                      "content": "~",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JlPEl",
+                      "name": "ftNm",
+                      "fill": "#737373",
+                      "content": "pablo santos luaces",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "R4M2E",
+                  "name": "ftSoc",
+                  "gap": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "No1Hq",
+                      "name": "ftX",
+                      "fill": "#525252",
+                      "content": "@psluaces",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "g5CHx",
+                      "name": "ftGh",
+                      "fill": "#525252",
+                      "content": "github.com/psluaces",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fmjHT",
+              "name": "ftBot",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "i7VPJ",
+                  "name": "ftCopy",
+                  "fill": "#525252",
+                  "content": "// based in spain. building things since 2005.",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11
+                },
+                {
+                  "type": "text",
+                  "id": "0nhM0",
+                  "name": "ftRss",
+                  "fill": "#22C55E",
+                  "content": "rss",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "6ryj5",
+      "x": 0,
+      "y": 1812,
+      "name": "Blog Homepage — Light",
+      "width": 1440,
+      "fill": "#FAFAFA",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "6yfKN",
+          "name": "Header",
+          "width": "fill_container",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#E5E5E5"
+          },
+          "padding": [
+            20,
+            160
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "M7Mxz",
+              "name": "hdrLeft",
+              "fill": "#1A1A1A",
+              "content": "Pablo Santos Luaces",
+              "fontFamily": "Newsreader",
+              "fontSize": 20,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "ePcnZ",
+              "name": "hdrNav",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "8dPRW",
+                  "name": "hdrPosts",
+                  "fill": "#666666",
+                  "content": "Posts",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "yfXoY",
+                  "name": "hdrAbout",
+                  "fill": "#666666",
+                  "content": "About",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "xYJdg",
+                  "name": "hdrGh",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "github",
+                  "iconFontFamily": "lucide",
+                  "fill": "#888888"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "BSMCp",
+                  "name": "hdrTw",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "twitter",
+                  "iconFontFamily": "lucide",
+                  "fill": "#888888"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "4jjU1",
+                  "name": "hdrLi",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "linkedin",
+                  "iconFontFamily": "lucide",
+                  "fill": "#888888"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ZbWzE",
+          "name": "Hero",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            80,
+            160
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "bTaPk",
+              "name": "heroLabel",
+              "fill": "#0D6E6E",
+              "content": "SOFTWARE ENGINEERING · PRODUCT · VERSION CONTROL",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 11,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "GNEXD",
+              "name": "heroName",
+              "fill": "#1A1A1A",
+              "content": "Pablo Santos Luaces",
+              "lineHeight": 1.05,
+              "fontFamily": "Newsreader",
+              "fontSize": 56,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "76Ici",
+              "name": "heroBio",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": 720,
+              "content": "I founded Plastic SCM, a version control system used by game studios, Fortune 500 companies, and research organizations — acquired by Unity Technologies in 2020. I build developer tools and write about making software products.",
+              "lineHeight": 1.6,
+              "fontFamily": "Inter",
+              "fontSize": 16
+            },
+            {
+              "type": "frame",
+              "id": "B9mcd",
+              "name": "heroLinks",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "2wTez",
+                  "name": "linkProducts",
+                  "fill": "#0D6E6E",
+                  "cornerRadius": 8,
+                  "gap": 8,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ytMUE",
+                      "name": "linkProductsText",
+                      "fill": "#FFFFFF",
+                      "content": "My Products",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ECFsL",
+                  "name": "linkAbout",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5E5"
+                  },
+                  "gap": 8,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "w3csb",
+                      "name": "linkAboutText",
+                      "fill": "#666666",
+                      "content": "About Me",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "Wf5xS",
+          "name": "divL1",
+          "fill": "#E5E5E5",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "Jn3li",
+          "name": "Posts Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            160
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "MoAIu",
+              "name": "postsHdr",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wVsjw",
+                  "name": "postsLabel",
+                  "fill": "#888888",
+                  "content": "RECENT POSTS",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "apuA7",
+                  "name": "postsAll",
+                  "fill": "#0D6E6E",
+                  "content": "View all →",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fXThV",
+              "name": "Posts List",
+              "width": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "STGrR",
+                  "name": "p1",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#F0F0F0"
+                  },
+                  "padding": [
+                    24,
+                    0
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FK6gF",
+                      "name": "p1t",
+                      "fill": "#1A1A1A",
+                      "content": "Track Prompt Provenance in Version Control",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 18,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ysOiV",
+                      "name": "p1d",
+                      "fill": "#AAAAAA",
+                      "content": "Dec 10, 2025",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gTulI",
+                  "name": "p2",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#F0F0F0"
+                  },
+                  "padding": [
+                    24,
+                    0
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wUYUY",
+                      "name": "p2t",
+                      "fill": "#1A1A1A",
+                      "content": "Merges desmitificados",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 18,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "aWE6P",
+                      "name": "p2d",
+                      "fill": "#AAAAAA",
+                      "content": "Nov 5, 2025",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bOPN6",
+                  "name": "p3",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#F0F0F0"
+                  },
+                  "padding": [
+                    24,
+                    0
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Xl8Xq",
+                      "name": "p3t",
+                      "fill": "#1A1A1A",
+                      "content": "De Scrum a Kanban — cómo entregamos tareas el doble de rápido",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 18,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KYiPq",
+                      "name": "p3d",
+                      "fill": "#AAAAAA",
+                      "content": "Mar 21, 2019",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "P5B7q",
+                  "name": "p4",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#F0F0F0"
+                  },
+                  "padding": [
+                    24,
+                    0
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RxcaR",
+                      "name": "p4t",
+                      "fill": "#1A1A1A",
+                      "content": "El negocio del software para programadores",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 18,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lkoMT",
+                      "name": "p4d",
+                      "fill": "#AAAAAA",
+                      "content": "Sep 23, 2018",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zS2Of",
+                  "name": "p5",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#F0F0F0"
+                  },
+                  "padding": [
+                    24,
+                    0
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gOrXz",
+                      "name": "p5t",
+                      "fill": "#1A1A1A",
+                      "content": "Plastic SCM vs Git",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 18,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VdR5C",
+                      "name": "p5d",
+                      "fill": "#AAAAAA",
+                      "content": "Mar 15, 2018",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UovOT",
+                  "name": "p6",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#F0F0F0"
+                  },
+                  "padding": [
+                    24,
+                    0
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "J5HwB",
+                      "name": "p6t",
+                      "fill": "#1A1A1A",
+                      "content": "Agendas creativas y ejecutivas: por qué las reuniones destrozan a los programadores",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 18,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "0nHAD",
+                      "name": "p6d",
+                      "fill": "#AAAAAA",
+                      "content": "Jan 22, 2018",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "wdprO",
+          "name": "divL2",
+          "fill": "#E5E5E5",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "qTd4k",
+          "name": "Products Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            160
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "nr7D7",
+              "name": "prodLabel",
+              "fill": "#888888",
+              "content": "THINGS I BUILT",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 11,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "snpnE",
+              "name": "Products Grid",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gUFbd",
+                  "name": "c1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5E5"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "LPQbr",
+                      "name": "c1badge",
+                      "fill": "#E07B54",
+                      "cornerRadius": 4,
+                      "padding": [
+                        4,
+                        8
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "L2hyB",
+                          "name": "c1badgeTxt",
+                          "fill": "#FFFFFF",
+                          "content": "ACQUIRED",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 9,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "vA9p4",
+                      "name": "c1name",
+                      "fill": "#1A1A1A",
+                      "content": "Plastic SCM",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 18,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "1asDR",
+                      "name": "c1desc",
+                      "fill": "#888888",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Version control for game studios and large teams. Acquired by Unity in 2020.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JcokK",
+                  "name": "c2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5E5"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EIEVC",
+                      "name": "c2name",
+                      "fill": "#1A1A1A",
+                      "content": "gitmergetool.com",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 18,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yV0t3",
+                      "name": "c2desc",
+                      "fill": "#888888",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Browser-based merge tool for GitHub. Resolve conflicts without leaving the browser.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "odNi8",
+                  "name": "c3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5E5"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dWrdz",
+                      "name": "c3name",
+                      "fill": "#1A1A1A",
+                      "content": "laps.racing",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 18,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KKuJE",
+                      "name": "c3desc",
+                      "fill": "#888888",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Strava for motorsport. Track your lap times and racing performance.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ZPDDK",
+                  "name": "c4",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5E5"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SIrFu",
+                      "name": "c4name",
+                      "fill": "#1A1A1A",
+                      "content": "rows.life",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 18,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XwpOX",
+                      "name": "c4desc",
+                      "fill": "#888888",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Time tracker and life journal. Born from 16 years of logging every hour.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hmb1k",
+                  "name": "c5",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5E5"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "S7DwH",
+                      "name": "c5name",
+                      "fill": "#1A1A1A",
+                      "content": "papervault.io",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 18,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zFTnT",
+                      "name": "c5desc",
+                      "fill": "#888888",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Version control for Word documents. Stop emailing files back and forth.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "F13bL",
+          "name": "divL3",
+          "fill": "#E5E5E5",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "i1DFG",
+          "name": "Footer",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            160
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "y6pkk",
+              "name": "ftTop",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "gM3Rv",
+                  "name": "ftName",
+                  "fill": "#888888",
+                  "content": "Pablo Santos Luaces",
+                  "fontFamily": "Newsreader",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "8jZ0G",
+                  "name": "ftSocial",
+                  "gap": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Bcwaq",
+                      "name": "ftX",
+                      "fill": "#AAAAAA",
+                      "content": "@psluaces",
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "1qdHL",
+                      "name": "ftGh",
+                      "fill": "#AAAAAA",
+                      "content": "GitHub",
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ykho6",
+                      "name": "ftLi",
+                      "fill": "#AAAAAA",
+                      "content": "LinkedIn",
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "JUuwL",
+                      "name": "ftRss",
+                      "fill": "#0D6E6E",
+                      "content": "RSS",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "KsD1H",
+              "name": "ftBottom",
+              "fill": "#BBBBBB",
+              "content": "Based in Spain. Building things since 2005.",
+              "fontFamily": "Inter",
+              "fontSize": 12
             }
           ]
         }

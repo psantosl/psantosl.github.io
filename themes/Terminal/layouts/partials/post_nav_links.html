@@ -1,0 +1,21 @@
+<div class="divider"></div>
+<nav class="post-nav">
+  <div class="post-nav-item">
+    {{ with .PrevInSection }}
+      <span class="post-nav-label">&larr; previous_post</span>
+      <a href="{{ .Permalink }}" class="post-nav-title">{{ .Title }}</a>
+    {{ else }}
+      <span class="post-nav-label">&larr; previous_post</span>
+      <span class="post-nav-none">// no older posts</span>
+    {{ end }}
+  </div>
+  <div class="post-nav-item post-nav-item--next">
+    {{ with .NextInSection }}
+      <span class="post-nav-label">next_post &rarr;</span>
+      <a href="{{ .Permalink }}" class="post-nav-title">{{ .Title }}</a>
+    {{ else }}
+      <span class="post-nav-label">next_post &rarr;</span>
+      <span class="post-nav-none">// no newer posts</span>
+    {{ end }}
+  </div>
+</nav>

@@ -1,0 +1,33 @@
+{{ with .Site.Params.products }}
+<div class="divider"></div>
+<section class="products-section">
+  <h2 class="section-title">&gt; things_i_built</h2>
+  <div class="products-grid">
+    {{ range . }}
+    <div class="product-card">
+      <div class="product-icon">
+        {{ if eq .icon "git-branch" }}
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><line x1="6" y1="3" x2="6" y2="15"></line><circle cx="18" cy="6" r="3"></circle><circle cx="6" cy="18" r="3"></circle><path d="M18 9a9 9 0 0 1-9 9"></path></svg>
+        {{ else if eq .icon "git-merge" }}
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="18" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><path d="M6 21V9a9 9 0 0 0 9 9"></path></svg>
+        {{ else if eq .icon "flag" }}
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path><line x1="4" y1="22" x2="4" y2="15"></line></svg>
+        {{ else if eq .icon "timer" }}
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="14" r="8"></circle><line x1="12" y1="10" x2="12" y2="14"></line><line x1="12" y1="14" x2="14" y2="14"></line><line x1="10" y1="2" x2="14" y2="2"></line></svg>
+        {{ else if eq .icon "file-text" }}
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+        {{ else }}
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect></svg>
+        {{ end }}
+      </div>
+      <span class="product-name">{{ .name }}</span>
+      <p class="product-desc">{{ .description }}</p>
+      <span class="product-tag {{ if eq .status "acquired" }}product-tag--acquired{{ else }}product-tag--active{{ end }}">// {{ .status }}</span>
+      {{ with .url }}
+        <a href="{{ . }}" class="product-link" target="_blank" rel="noopener">// visit →</a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

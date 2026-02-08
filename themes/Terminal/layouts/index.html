@@ -1,0 +1,37 @@
+{{ define "main" }}
+<section class="hero">
+  <span class="hero-label">// {{ .Site.Params.description | lower }}</span>
+  <h1 class="hero-name">{{ .Site.Params.homeInfoParams.Title }}</h1>
+  <p class="hero-bio">{{ .Site.Params.homeInfoParams.Content }}</p>
+  <div class="hero-links">
+    <a href="#products" class="hero-link hero-link--primary">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+      my_products
+    </a>
+    <a href="{{ "about/" | relURL }}" class="hero-link hero-link--secondary">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+      about_me
+    </a>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section class="posts-section">
+  <div class="section-header">
+    <h2 class="section-title">&gt; recent_posts</h2>
+    <a href="{{ "posts/" | relURL }}" class="section-link">view_all &rarr;</a>
+  </div>
+  <div class="posts-list">
+    {{ range first 6 (where .Site.RegularPages "Section" "posts") }}
+    <a href="{{ .Permalink }}" class="post-item">
+      <span class="post-item-title">{{ .Title }}</span>
+      <span class="post-item-date">{{ .Date.Format "2006-01-02" }}</span>
+    </a>
+    {{ end }}
+  </div>
+</section>
+
+<div id="products"></div>
+{{ partial "products.html" . }}
+{{ end }}

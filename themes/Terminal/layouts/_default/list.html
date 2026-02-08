@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="list-header">
+  <h1 class="list-title">&gt; {{ .Title | lower | urlize | replaceRE "-" "_" }}</h1>
+  <span class="list-count">// {{ len .Pages }} {{ if eq (len .Pages) 1 }}post{{ else }}posts{{ end }}</span>
+</div>
+
+<div class="divider"></div>
+
+<div class="list-body">
+  <div class="posts-list">
+    {{ range .Pages.ByDate.Reverse }}
+    <a href="{{ .Permalink }}" class="post-item">
+      <span class="post-item-title">{{ .Title }}</span>
+      <span class="post-item-date">{{ .Date.Format "2006-01-02" }}</span>
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

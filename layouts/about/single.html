@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="post-header">
+  {{ partial "breadcrumbs.html" . }}
+  <h1 class="post-title">{{ .Title }}</h1>
+</div>
+
+<div class="divider"></div>
+
+<article class="article-body">
+  {{ .Content }}
+</article>
+
+{{ partial "products.html" . }}
+{{ end }}
