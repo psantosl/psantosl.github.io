@@ -6,7 +6,7 @@ draft: false
 
 > *This post was originally published on [Medium](https://medium.com/@psluaces/plasticscm-vs-git-c17934fad7ed).*
 
-(Este blogpost está disponible en Español [aquí](https://medium.com/@psluaces/plasticscmvsgit-e226ff50c01)).
+(Este blogpost está disponible en Español [aquí](/posts/plastic-scm-contra-git/)).
 
 There is a question I can’t seem to avoid every time I go to a meetup or attend a conference: how is Plastic different than Git? Sometimes is asked out of mere curiosity, other times it is a statement of “how dare you compete against the dominant version control software made by Torvalds himself?”
 
@@ -14,7 +14,7 @@ Sometimes, it seems like someone is offended by seeing a small group compete aga
 
 Well, that’s what I’m going to explain right now; what makes Plastic different than Git? What makes +2500 developers companies go for Plastic? What prompts small game studios, big ones, insurance, health care, aerospace and automotive companies choose Plastic? Did they all go crazy?
 
-![](./1.png)
+![](./1.webp)
 
 Us versus the rest of the Empire
 
@@ -26,7 +26,7 @@ What does this mean? It means that Plastic branches match what you have in your 
 
 Meanwhile, in Git you must adapt yourself thinking in pointers. And, very often it is not easy to figure out where a commit was created. In fact, it is not even important in the Git-way-of-thinking. You might say, ok, who cares! But, wouldn’t you like to see heritage and immediately understand per task where lines were touched without having to rely on commit messages? This is what Plastic-style branches are all about; a mapping of one-to-many branches in a changeset. For example:
 
-![](./2.png)
+![](./2.webp)
 
 Git vs Plastic branches
 
@@ -34,7 +34,7 @@ Additionally, deleting branches is very common in the Git world, simply because 
 
 As I said earlier, in Plastic you always know where a changeset was created, while in Git, is almost impossible to tell:
 
-![](./3.png)
+![](./3.webp)
 
 Does this really matter? Well, the difference is all about full traceability and ease of use. Every single Git instructor I have ever spoken to has told me that he must figure out how to make students think in terms of pointers and not branches as they used to. All this is much more intuitive in Plastic. Branches as you expect. That’s all.
 

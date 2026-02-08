@@ -6,13 +6,13 @@ draft: false
 
 > *This post was originally published on [Medium](https://medium.com/@psluaces/plasticscmvsgit-e226ff50c01).*
 
-(This blogpost is available in English [here](https://medium.com/@psluaces/plasticscm-vs-git-c17934fad7ed)).
+(This blogpost is available in English [here](/posts/plastic-scm-vs-git/)).
 
 Hay una pregunta ineludible cada vez que voy a un meetup o a una conferencia y alguien se entera de que desarrollo Plastic SCM: ¿cómo se compara con Git? Muchos me lo preguntan por pura curiosidad o interés; otros, me da la impresión de que casi ofendidos de que osemos a desafiar al sistema dominante concebido por el mismísimo Torvalds. Es casi en plan “¿qué podéis hacer vosotros, pringadillos, contra EL sistema dominante? Y, además, ahora está apoyado por Atlassian, Microsoft, GitHub, GitLab y otras multinacionales que tienen más gente en la recepción que vosotros en desarrollo.”
 
 Bueno, pues eso es lo que voy a explicar: ¿qué hace diferente a Plastic de Git que hace que podamos tener clientes con más de 2500 desarrolladores usándolo, pequeños estudios de videojuegos, grandes estudios, empresas de automoción, seguros, aeroespacial y muchos otros? ¿Estarán todos locos?
 
-![](./1.jpeg)
+![](./1.webp)
 
 Somos casi como Astérix y Obélix resistiendo contra el imperio. ;-)
 
@@ -24,13 +24,13 @@ En Plastic las ramas son contenedores de changesets (commits en jerga Git). En G
 
 En Git tienes que adaptar tu cabeza a pensar en su formato de punteros, y muchas veces no es nada fácil saber dónde se hizo un commit. Y puedes decir, vale, ¡y qué más da! Pero, ¿a que cuando ves un blame te gustaría saber en qué tarea se tocó una línea sin tener que volverte loco o depender de los mensajes de commit? Pues eso te lo dan las ramas de Plastic.
 
-![](./2.png)
+![](./2.webp)
 
 Además, en Git es muy habitual “borrar ramas” porque estorban, sin más; algo que en Plastic no haces. Se hace también porque la mayoría de las GUIs de Git (la línea de comandos no), se mueren directamente si tienes un repositorio con 2mil ramas. Si haces una rama por tarea, como recomendamos nosotros, puedes tener repositorios con 10mil, 20mil ramas… y no es ningún problema en Plastic.
 
 Una cosa más: como te decía, en Git puedes dejar de saber fácilmente qué pertenecía a qué rama, mientras que en Plastic no:
 
-![](./3.png)
+![](./3.webp)
 
 ¿Es muy importante esto? Implica trazabilidad total y facilidad de uso. No conozco a un solo instructor de Git que no te diga que tiene que amueblar la cabeza de los alumnos para que piensen en punteros y no en ramas “normales”. En Plastic es más intuitivo, sin más.
 

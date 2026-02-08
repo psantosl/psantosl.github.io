@@ -12,7 +12,7 @@ Supongo que a todos nos gustaría comparar nuestra forma de trabajar con otros e
 
 Bueno, pues esto cambia gracias a “[Accelerate State of DevOps Report](https://cloudplatformonline.com/2018-state-of-devops.html)”. Contiene información suficiente como para saber si eres parte de lo que llaman “la élite de DevOps”.
 
-![](./1.png)
+![](./1.webp)
 
 ### Análisis completo del informe
 
@@ -30,7 +30,7 @@ El significado de “deploy” puede variar mucho dependiendo de tu industria, c
 
 La técnica que usamos es la siguiente: cada rama de tarea/bug se integra (merge) en main una vez ha sido revisada, validada y ha pasado todos los tests automáticos. Entonces la nueva versión potencialmente entregable se marca con un build number pero usando un atributo en lugar de un label:
 
-![](./2.png)
+![](./2.webp)
 
 Las versiones que realmente lanzamos sí que las etiquetamos (círculo verde, que es como Plastic muestra las labels).
 
@@ -57,7 +57,7 @@ En DevOps es siempre clave la automatización. Y en este caso, para alcanzar los
 
 En nuestro caso todavía no estamos ahí porque lo mínimo que tardamos son 2 horas hasta que un cambio llega a una versión lista para publicar. Y esto es porque nuestros tests han crecido demasiado y, a pesar de que paralelizamos mucho, todavía tardamos 2 horas. Quizá con más fuerza bruta y más paralelización podríamos bajarlo, pero el problema de verdad es que los tests de integración y gráficos tardan demasiado, porque tenemos demasiados.
 
-Publiqué hace poco un post en el que hablo de “cycle time y lead time” y cómo cambiamos nuestra forma de trabajar al movernos de Scrum a Kanban: [https://medium.com/@psluaces/scrum-a-kanban-2-veces-mas-rapido-f6c0802d93f1](https://medium.com/@psluaces/scrum-a-kanban-2-veces-mas-rapido-f6c0802d93f1)
+Publiqué hace poco un post en el que hablo de “cycle time y lead time” y cómo cambiamos nuestra forma de trabajar al movernos de Scrum a Kanban: [De Scrum a Kanban: cómo entregamos tareas el doble de rápido](/posts/de-scrum-a-kanban-como-entregamos-tareas-el-doble-de-rapido/)
 
 ### Tiempo para restaurar el servicio
 

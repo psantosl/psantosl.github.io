@@ -8,7 +8,7 @@ draft: false
 
 Hemos reducido a la mitad el tiempo medio que tarda una tarea desde que se abre hasta que se pone en producción. De 7.52 a 3.66 días.
 
-![](./1.png)
+![](./1.webp)
 
 Y esta es la historia de lo que hemos hecho para conseguirlo.
 
@@ -46,7 +46,7 @@ Esto lo explica muy bien el libro.
 
 El “cycle time” es el tiempo que pasa desde que abres una tara hasta que se pone en producción.
 
-![](./2.png)
+![](./2.webp)
 
 El “lead time”, sin embargo, es el tiempo que pasa desde que la tarea o bug se mete en el sistema.
 
@@ -126,7 +126,7 @@ Pero… a mí me gustó mucho más, por unos cuantos motivos.
 
 Este es el tablón que propone el libro:
 
-![](./3.png)
+![](./3.webp)
 
 Te recomienda poner WIP limits que afecten a dos columnas o más dentro de la misma fase.
 
@@ -148,7 +148,7 @@ Unas pocas semanas después de movernos a Kanban nos cambiamos también a Baseca
 
 Pues esta es la pinta que tiene nuestro tablón Kanban en Miro (realtimeboard).
 
-![](./4.png)
+![](./4.webp)
 
 Hicimos unos pocos cambios respecto a lo que proponía el libro, pero en esencia es lo mismo.
 
@@ -172,7 +172,7 @@ No voy a contar aquí cómo hemos calculado los WIP limits porque da para otro b
 
 Lo que probablemente sí que merece la pena es explicar cómo usamos las tarjetas:
 
-![](./5.png)
+![](./5.webp)
 
 ### ¿Qué nos motivó a cambiar?
 
@@ -180,7 +180,7 @@ Cuando fundé Códice, allá por 2005, ya era un creyente en Peopleware. Esto qu
 
 Este es un plano de nuestra oficina en Boecillo.
 
-![](./6.png)
+![](./6.webp)
 
 Del mismo modo que lo intenté con el código y con todo lo demás, era mi oportunidad de “hacer las cosas bien”.
 
@@ -254,7 +254,7 @@ Lo primero que se me ocurre es la columna de Backlog. Sí, tenemos un roadmap bi
 
 He recopilado algunos números (gracias a nuestro issue tracker) de los últimos sprints con Scrum y de los más recientes con Kanban para comparar:
 
-![](./7.png)
+![](./7.webp)
 
 “Cycle time” es el tiempo en días que pasa desde que una tarea se empieza hasta que está en release.
 
@@ -270,7 +270,7 @@ Si os dais cuenta, no es que hagamos mucho más trabajo, es que simplemente lo o
 
 Otros números que me parecen muy interesantes son los del tiempo dedicado a tareas de plan. Se ven en la siguiente tabla:
 
-![](./8.png)
+![](./8.webp)
 
 El SPRINT 294 fue el primero de Kanban.
 
