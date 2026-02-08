@@ -1,0 +1,48 @@
+baseURL = 'https://psluaces.github.io/'
+languageCode = 'en-us'
+title = 'Pablo Santos Luaces'
+theme = 'PaperMod'
+[pagination]
+  pagerSize = 10
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowShareButtons = false
+  ShowCodeCopyButtons = true
+  description = "Software engineering, product, and version control"
+  author = "Pablo Santos Luaces"
+
+  [params.homeInfoParams]
+    Title = "Pablo Santos Luaces"
+    Content = "Software engineering, product, and version control."
+
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/psluaces"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/psantosl/"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/psluaces"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
