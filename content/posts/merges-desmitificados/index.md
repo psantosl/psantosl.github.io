@@ -19,7 +19,7 @@ Es 2025 y los merges siguen siendo un dolor, y la mayoría de herramientas no lo
 
 Tú y yo tocamos un mismo fichero, y los comparamos. Tienen esta pinta:
 
-![](./1.png)
+![](./1.webp)
 
 ¿Has borrado tú la línea 70? ¿O la he añadido yo?
 
@@ -29,7 +29,7 @@ Si al _mergear_ ficheros simplemente comparamos tu versión con la mía, cada ca
 
 Pero, si sabemos cómo era el fichero antes, las cosas se simplifican. En el medio de tu fichero y el mío pongo cómo era antes de nuestros cambios:
 
-![](./2.png)
+![](./2.webp)
 
 Ahora es fácil, ¿no? Está claro que tú borraste la línea 70.
 
@@ -57,7 +57,7 @@ Luego los controles de versiones llamarán a esto de diferentes formas, para com
 
 A veces pasa esto, y entonces las herramientas de merge necesitan a un humano que decida:
 
-![](./3.png)
+![](./3.webp)
 
 Tú has puesto un 15 en la línea 50 donde antes había un 20, y yo he puesto un 25.
 
@@ -81,7 +81,7 @@ Por cierto, los cambios en las líneas 30 y 70 serán automáticos => se quedar�
 
 Vamos a verlo con un caso muy sencillo, con dos ramas nada más:
 
-![](./4.png)
+![](./4.webp)
 
 Puedes imaginar esto en ‘vertical’ si siempre has usado Git, pero a mí me gusta más así.
 
@@ -101,7 +101,7 @@ Muy fácil:
 
 Si hicieras merge desde ‘main’ a tu rama, el ‘origen’ y ‘destino’ estarían al revés, la base sería la misma.
 
-![](./5.png)
+![](./5.webp)
 
 ### Los problemas crecen
 
@@ -109,11 +109,11 @@ En un repositorio con muchas personas y muchos commits, a veces encontrar el ‘
 
 En este ejemplo ya es un poco más difícil, ¿sabrías de dónde saldrá la ‘base’ de este merge?
 
-![](./6.png)
+![](./6.webp)
 
 Pues es el commit 13, porque ese ‘link de merge’ (línea de color rojo entre 14 y 13) hace que el 13 sea el punto común más cercano.
 
-![](./7.png)
+![](./7.webp)
 
 Se puede complicar todo lo que quieras, pero para eso Git y otras herramientas, guardan los ‘links de merge’ y saben calcular esto muy bien.
 
@@ -143,7 +143,7 @@ Ahora que ya sabes cómo funciona un merge, vamos a ver cómo liarla (para que n
 
 Vamos a ver el por qué, con dibujos.
 
-![](./8.png)
+![](./8.webp)
 
 Después del merge te has quedado con tus cambios (bloque\_importante()), y te has traído los cambios de ‘main’ de las líneas 30 y 70 (print(“**bye** world”) y print(result **\+ 1**)).
 
@@ -151,17 +151,17 @@ Pero, por lo que sea, has decidido no quedarte con ‘save\_to\_database()’ pe
 
 Así que sigues trabajando en tu rama, y un rato más tarde esa rama debe entrar en main, y la situación es como esta:
 
-![](./9.png)
+![](./9.webp)
 
 Como tu control de versiones ‘recuerda’ los meges, ahora la base de tu merge es el commit marcado en naranja.
 
 ¿Y qué ocurre con tu fichero? Vamos a verlo: voy a suponer que en main sólo hay un cambio adicional sobre el fichero en la línea 30 (fácil) y en tu caso has seguido cambiando cosas en el bloque final, que ahora llamo bloque\_2.
 
-![](./10.png)
+![](./10.webp)
 
 ¿Qué pasará durante el merge? Vamos a poner los ficheros ‘en orden’ con la base en el medio, para ver qué conflictos hay.
 
-![](./11.png)
+![](./11.webp)
 
 El nuevo cambio en la línea 30 en main entra sin conflicto (no hay cambios en los otros dos contribuidores).
 

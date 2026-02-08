@@ -5,5 +5,5 @@
     <a href="{{ (printf "/%s/" .Section) | relURL }}">{{ .Section }}</a>
     <span class="sep">/</span>
   {{ end }}
-  <span class="current">{{ .Title | urlize | truncate 30 "" }}</span>
+  <span class="current">{{ strings.TrimRight "/" .RelPermalink | path.Base | truncate 30 "" }}</span>
 </nav>

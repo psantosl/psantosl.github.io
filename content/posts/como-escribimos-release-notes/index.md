@@ -25,9 +25,11 @@ Las reglas que nosotros intentamos seguir en Códice tanto para Plastic, Semanti
 
 Se entiende mejor, claro, con un ejemplo :-): es más fácil de entender “cuando creas la rama hija main/task127, modificas foo.c y haces merge a main, da un mensaje de error” que “se produce un error inesperado al hacer un merge de un ítem desde una rama hija con un fichero modificado”. Es mejor hablar de “foo” y de “task127” que de abstracciones, tanto al leer como al escribir.
 
-Esto ayuda mucho también al hablar de ficheros de configuración. Es mejor decir “el formato de ignore.conf es:
+Esto ayuda mucho también al hablar de ficheros de configuración. Es mejor decir "el formato de ignore.conf es:
 
-Que “introduzca en cada línea del fichero de configuración un patrón del tipo de fichero a ignorar”.
+<script src="https://gist.github.com/psantosl/102d065b05121dd2f43663b897633930.js?file=ignore.conf"></script>
+
+Que "introduzca en cada línea del fichero de configuración un patrón del tipo de fichero a ignorar".
 
 Para mí lo de los ejemplos es una regla de oro tanto en release notes como en manuales, blogposts e incluso comunicación con clientes.
 

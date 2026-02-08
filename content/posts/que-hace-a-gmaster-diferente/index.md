@@ -42,21 +42,21 @@ Pero hay más cosas que añadimos al Branch Explorer para simplificar la visuali
 
 Es mi repositorio “p2pcopy”, pero ahora puedo darle a “compactar” y el gráfico se collapsa eliminando los commits no relevantes para la topología, que son los que no reciben un merge, no son inicio ni fin de rama y no están etiquetados:
 
-![](./8.png)
+![](./8.webp)
 
 Ahora el grafo es más comapcto que antes, y me deja ver más de la evolución de las ramas en el mismo espacio.
 
 Y la otra cosa importante es el filtrado. Puedo darle al botón derecho y decir “filtra las ramas seleccionadas y las relacionadas”:
 
-![](./9.png)
+![](./9.webp)
 
 Y entonces pasa esto de abajo, y te centras solamente en las ramas que querías:
 
-![](./10.png)
+![](./10.webp)
 
 Para terminar, es muy importante que todas las operaciones de “branching y merging” se pueden hacer desde el Branch Explorer de forma muy visual. Crear ramas, hacer merges, cherry-pick… de todo:
 
-![](./11.png)
+![](./11.webp)
 
 Eso sí, no sé qué pasa, pero muchos usuarios ya no usan jamás el botón derecho, y tenemos a gente que no encuentra estas opciones, así que estamos dándole vueltas para ver cómo hacemos que todos los botones estén a la vista, sin menús contextuales.
 
@@ -70,7 +70,7 @@ Voy a empezar con los más básicos primero:
 
 -   Side-by-side diff con Xdiff (detección de bloques de texto movidos). Lo desarrollamos hace tanto que ya casi no nos acordamos de lo útil que es. Puede hacer cosas como esta:
 
-![](./12.png)
+![](./12.webp)
 
 -   3-way merge con Xmerge: una herramienta de merge de 3 vías tipo WinMerge o Araxis, incluida en el producto, y también con tracking de texto movido.
 
@@ -80,17 +80,17 @@ Quitando lo de la detección de bloques movidos, tampoco es que estas dos herram
 
 Ahora, como dije antes, lo realmente rompedor es la tecnología semántica que llevamos años desarrollando. ¿Qué pasaría si tu herramienta de diff y merge entendiera código C# (o Java, o C++, o C…)? Eso es justo lo que hacemos, y los resultados son bastante impresionantes:
 
-![](./13.png)
+![](./13.webp)
 
 Puede “romper” el diff y poner juntas las diferencias de un método que ha sido movido a otro sitio en el mismo fichero, como puedes ver en la captura anterior, en la que las líneas no coinciden, pero Semantic \*sabe\* que el método “Between()” se ha movido (fíjate en las C y las M que decoran el método en C# y que indican cambiado y movido).
 
 Y es que una vez que parseas el código, puedes hacer ya muchas cosas, como explicar visualmente el movido:
 
-![](./14.png)
+![](./14.webp)
 
 Como decía, incluimos nuestro [semanticmerge](http://www.semanticmerge.com) dentro de gmaster, pero hemos ido más allá y lo hemos convertido en multi-file. Mira esto:
 
-![](./15.png)
+![](./15.webp)
 
 ¡Exacto! ¡Sabe que GetTimeBetween() se ha movido a otro fichero! Ha sido movido, cambiado y renombrado, pero gmaster lo sabe… ¿te imaginas el tiempo que esto puede ahorrar al revisar refactors complicados?
 
@@ -104,7 +104,7 @@ Nosotros queríamos hacer algo diferente, basado en nuestra experiencia previa d
 
 Así que desarrollamos una “preview” separada de la típica vista de “commit”. Así cuando lanzo un merge me lleva a una interfaz específica que me ayuda a entender qué esta pasando y cómo solucionar el merge. Echa un ojo a la siguiente captura:
 
-![](./16.png)
+![](./16.webp)
 
 Puedes ver como gmaster me da un resumen y me dice que solo hay un fichero en conflicto, me muestra los dos contribuidores del merge (los cambios hechos en paralelo), con sus diferencias, y me deja o bien mezclarlos (merge, lo habitual) o bien quedarme con uno de ellos.
 
@@ -124,7 +124,7 @@ No todos los usuarios de Git son expertos ni quieren serlo. Y muchos se pelean c
 
 Así que hemos intentado simplificar el commit todo lo que hemos podido: solamente te mostramos lo que ha cambiado, haces commit y listo. Nada de pasos intermedios.
 
-![](./18.png)
+![](./18.webp)
 
 Como puedes ver en la captura, gmaster solamente te muestra los ficheros modificados, todo lo que hay que hacer es clic en “commit”.
 
