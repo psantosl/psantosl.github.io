@@ -565,12 +565,13 @@ img {
 .article-body thead th {
   color: var(--text-primary);
   font-weight: 600;
-  text-align: left;
+  text-align: left !important;
   padding: 10px 16px;
   border-bottom: 2px solid var(--border);
 }
 
 .article-body tbody td {
+  text-align: left !important;
   padding: 8px 16px;
   border-bottom: 1px solid var(--border);
   color: var(--text-secondary);
