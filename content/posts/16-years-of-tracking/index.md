@@ -12,6 +12,8 @@ I realize I haven't talked about this habit often. When I did, I guess my friend
 
 Here's what I think those rows taught me.
 
+![](./trackingrabbit.png)
+
 ## The spreadsheet started with a nagging feeling
 
 Back in 2014, I was running a software company (Plastic SCM, a version control system — later acquired by Unity Technologies).
