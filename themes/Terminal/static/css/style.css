@@ -499,10 +499,10 @@ img {
 }
 
 .article-body h3 {
-  color: var(--green);
-  font-size: 20px;
+  color: var(--text-primary);
+  font-size: 16px;
   font-weight: 600;
-  margin-top: 16px;
+  margin-top: 12px;
 }
 
 .article-body h4 {
@@ -554,6 +554,30 @@ img {
 
 .article-body img {
   border-radius: 4px;
+}
+
+.article-body table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.article-body thead th {
+  color: var(--text-primary);
+  font-weight: 600;
+  text-align: left;
+  padding: 10px 16px;
+  border-bottom: 2px solid var(--border);
+}
+
+.article-body tbody td {
+  padding: 8px 16px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-secondary);
+}
+
+.article-body tbody tr:hover {
+  background: var(--surface);
 }
 
 /* --- Code / Syntax Highlighting --- */
