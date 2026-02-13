@@ -6,6 +6,8 @@ draft: false
 
 > *This post was originally published on [Medium](https://medium.com/@psluaces/scrum-a-kanban-2-veces-mas-rapido-f6c0802d93f1).*
 
+(This blog post is available in English [here](/posts/from-scrum-to-kanban-how-we-delivered-tasks-twice-as-fast/)).
+
 Hemos reducido a la mitad el tiempo medio que tarda una tarea desde que se abre hasta que se pone en producción. De 7.52 a 3.66 días.
 
 ![](./1.webp)

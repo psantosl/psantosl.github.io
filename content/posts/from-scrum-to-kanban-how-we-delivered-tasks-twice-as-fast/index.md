@@ -4,7 +4,7 @@ date: 2026-02-13
 draft: false
 ---
 
-> *This post was originally published in Spanish on blog.plasticscm.com, but that source is now lost. The Spanish version is available [here](/posts/de-scrum-a-kanban-como-entregamos-tareas-el-doble-de-rapido/).*
+> *This post was originally published on blog.plasticscm.com, but that source is now lost. The Spanish version is available [here](/posts/de-scrum-a-kanban-como-entregamos-tareas-el-doble-de-rapido/).*
 
 We cut in half the average time it takes for a task to go from open to production. From 7.52 to 3.66 days.
 
