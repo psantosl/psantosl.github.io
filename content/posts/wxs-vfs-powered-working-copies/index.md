@@ -1,5 +1,5 @@
 ---
-title: "wxs: vfs powered working copies"
+title: "wxs: VFS-powered working copies"
 date: 2026-02-14
 draft: false
 _build:
@@ -7,36 +7,32 @@ _build:
 ---
 <link rel="stylesheet" type="text/css" href="https://unpkg.com/asciinema-player@3.9.0/dist/bundle/asciinema-player.css" />
 
-This is a virtual file system to handle version control working copies (workspaces).
+Working PoC of a virtual filesystem that manages version control workspaces.
 
-Creating the workspace takes no time because it just does a fast clone and gets the blobs later.
-
-But users and agents can immediately access the workspace because while the prefetch finishes, blobs can also be downloaded on demand.
+`wxs create` gets the tree (directory structure + metadata) so the workspace is browsable immediately. File content is fetched on demand when read, while a background prefetch warms the cache.
 
 <div id="demo"></div>
 
-Duplicating workspaces (to work on multiple branches, something key for agents) is blazing fast, as you can see in the following video.
+Duplicating a workspace is near-instant. All workspaces share content through a content-addressable store with copy-on-write — only files you actually modify take extra disk.
 
-This is because there is an underlying cache for all workspaces, so they all share the same data. Users (and agents) see multiple directories, but they all share the same data (with copy on write to diverge).
+This matters for agents: each task gets its own isolated workspace without multiplying storage.
 
 <div id="demo2"></div>
 
-Check the wxs list command:
+4 workspaces of VS Code (9,304 files each), 27 MB total instead of 555 MB:
 
 ```console
-$ wxs list                                                                                
-NAME      STATUS   BRANCH  FILES      SIZE  PRIVATE  PATH                      REPO                                    
-vscode00  mounted  main     9304  138.9 MB        -  /home/pablo/wxs/vscode00  https://github.com/microsoft/vscode.git 
-vscode01  mounted  main     9304  138.9 MB        -  /home/pablo/wxs/vscode01  https://github.com/microsoft/vscode.git 
-vscode02  mounted  main     9304  138.9 MB        -  /home/pablo/wxs/vscode02  https://github.com/microsoft/vscode.git 
-vscode03  mounted  main     9304  138.9 MB        -  /home/pablo/wxs/vscode03  https://github.com/microsoft/vscode.git 
-                                                                                                                       
-CAS: 27.8 MB on disk for 4 workspaces (555.7 MB without dedup, 95% saved) 
+$ wxs list
+NAME      STATUS   BRANCH  FILES      SIZE  PRIVATE  PATH                      REPO
+vscode00  mounted  main     9304  138.9 MB        -  /home/pablo/wxs/vscode00  https://github.com/microsoft/vscode.git
+vscode01  mounted  main     9304  138.9 MB        -  /home/pablo/wxs/vscode01  https://github.com/microsoft/vscode.git
+vscode02  mounted  main     9304  138.9 MB        -  /home/pablo/wxs/vscode02  https://github.com/microsoft/vscode.git
+vscode03  mounted  main     9304  138.9 MB        -  /home/pablo/wxs/vscode03  https://github.com/microsoft/vscode.git
+
+CAS: 27.8 MB on disk for 4 workspaces (555.7 MB without dedup, 95% saved)
 ```
 
-4 workspaces mounted in no time, but they all use just 27 MB instead of 555 MB.
-
-This is the extended info for one of the virtual workspaces:
+Each workspace is a real filesystem mount. Standard git commands work inside it — no wrapping, no special workflow. `git status` runs in 35ms thanks to the built-in fsmonitor daemon watching the VFS.
 
 ```console
 $ wxs info vscode00
@@ -56,7 +52,7 @@ Git Repository
   Remote:   yes
 ```
 
-Each workspace can track version controlled files and also private files (build output, temporary files, etc)
+Workspaces track both version-controlled files and private files (build output, temp files). Git is the first backend but the VFS core is SCM-agnostic — the same architecture can support any version control system that provides a tree and blob fetching.
 
 
 <script src="https://unpkg.com/asciinema-player@3.9.0/dist/bundle/asciinema-player.min.js"></script>
