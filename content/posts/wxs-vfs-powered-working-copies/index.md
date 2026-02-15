@@ -9,6 +9,16 @@ _build:
 
 Working PoC of a virtual filesystem that manages version control workspaces.
 
+## Why
+
+The biggest tech companies already solved this problem for themselves. Google built CitC — every engineer uses a virtual workspace over their monorepo. Meta built EdenFS + Sapling to handle their massive codebase without materializing files to disk. Microsoft built VFS for Git for the Windows repo (300 GB+, 3.5M files), then upstreamed the best parts into Git itself as Scalar, partial clone, and fsmonitor.
+
+These systems work. But CitC lives inside Google. EdenFS depends on Meta's Mononoke server infrastructure and is practically impossible to run outside Meta. VFS for Git is deprecated. Scalar is good but still requires full working-tree enumeration and doesn't give you real virtual workspaces.
+
+None of them are available as general infrastructure. wxs is an attempt to change that — a virtual filesystem for version-controlled workspaces that works with any Git repo, on Linux and Windows, as something any team can use.
+
+## The PoC
+
 `wxs create` gets the tree (directory structure + metadata) so the workspace is browsable immediately. File content is fetched on demand when read, while a background prefetch warms the cache.
 
 <div id="demo"></div>
@@ -58,21 +68,15 @@ Workspaces track both version-controlled files and private files (build output, 
 
 The PoC proves the core: VFS-backed workspaces with shared content and copy-on-write. Here's where it goes from here.
 
-**Automatic snapshots.** The VFS sees every write. That means it can snapshot workspace state at any point — before a build, before an agent run, on a timer. Rollback becomes trivial. Branch from any snapshot to explore alternatives.
+**Automatic snapshots.** The VFS sees every write. That means it can snapshot workspace state at any point — before a build, before an agent run, on a timer. Rollback becomes trivial. Branch from any snapshot to explore alternatives. Since the VFS intercepts every file operation, you also get a full audit trail for free.
 
-**Cache servers.** Content-addressable storage makes caching straightforward. A local or regional cache server can warm up blobs ahead of time, making workspace creation near-instant even for massive repos.
+**Cache servers.** Content-addressable storage makes caching straightforward. A local or regional cache server can warm up blobs ahead of time, making workspace creation near-instant even for massive repos. Large game studios have had to build parallel metadata and data caches in front of their version control to scale it to their needs.
 
-**Auditing.** The VFS layer intercepts every file operation. That's a full audit trail for free — what was read, what was written, when, by which agent or process. Useful for compliance, debugging agent behavior, or understanding how a codebase is actually used.
+**Cloud sync.** Sync workspace state to the cloud, snapshots included. Pause work on one machine, resume on another. Because workspaces are just metadata plus a content-addressable store, transferring one means syncing a small manifest and letting the target fetch only the blobs it doesn't already have. Moves a multi-GB workspace in seconds. For agents, this means migrating a task mid-execution without losing filesystem state.
 
-**Cloud sync with snapshots.** Sync workspace state to the cloud, snapshots included. Pause work on one machine, resume on another. For agents, this means migrating a task mid-execution without losing filesystem state.
+**Workspace templates.** Define content that isn't in version control but should be present in every workspace — a 50 GB test dataset, assets from external storage, shared tooling configs. Templates make workspaces reproducible without polluting the repo.
 
-**Workspace templates.** Define content that isn't in version control but should be present in every workspace — test files, large assets from external storage, game art. Templates make workspaces reproducible without polluting the repo.
-
-**Quick workspace sharing between machines.** Because workspaces are just metadata plus a content-addressable store, transferring a workspace between computers means syncing a small manifest and letting the target machine fetch only the blobs it doesn't already have. Moves a multi-GB workspace in seconds.
-
-**Universal VCS layer.** A common interaction model for all version controls, making it much easier to switch or adapt. Also provide massive scale for teams with large monorepos without having to develop the infra themselves (like many big players had to do).
-
-**A new filesystem standard for development**. The same FS semantics can be available for macOS, Linux and Windows.
+**Unified version control.** Git is the first backend, but the VFS core doesn't know or care about Git. The same `wxs create` / `wxs mount` workflow works whether the backend is Git, Perforce, SVN, or Plastic. Take it further: `wxs commit`, `wxs branch`, `wxs blame` — a single command set regardless of what's underneath. Teams pick the SCM they want; wxs handles the workspace.
 
 <script src="https://unpkg.com/asciinema-player@3.9.0/dist/bundle/asciinema-player.min.js"></script>
 <script>
