@@ -15,7 +15,7 @@ The biggest tech companies already solved this problem for themselves. Google bu
 
 These systems work. But CitC lives inside Google. EdenFS depends on Meta's Mononoke server infrastructure and is practically impossible to run outside Meta. VFS for Git is deprecated. Scalar is good but still requires full working-tree enumeration and doesn't give you real virtual workspaces.
 
-None of them are available as general infrastructure. wxs is an attempt to change that — a virtual filesystem for version-controlled workspaces that works with any Git repo, on Linux and Windows, as something any team can use.
+None of them are available as general infrastructure. wxs is an attempt to change that — a virtual filesystem for version-controlled workspaces that works with any Git repo, on Linux and Windows, as something any team can use. And now there's a new reason this matters: AI coding agents that need dozens of parallel isolated workspaces per repo, created and destroyed in seconds.
 
 ## The PoC
 
@@ -42,7 +42,7 @@ vscode03  mounted  main     9304  138.9 MB        -  /home/pablo/wxs/vscode03  h
 CAS: 27.8 MB on disk for 4 workspaces (555.7 MB without dedup, 95% saved)
 ```
 
-Each workspace is a real filesystem mount. Standard git commands work inside it — no wrapping, no special workflow. `git status` runs in 35ms thanks to the built-in fsmonitor daemon watching the VFS.
+Each workspace is a real FUSE mount (WinFsp on Windows) — not an SDK wrapper or API abstraction. Standard git commands work inside it — no wrapping, no special workflow. `git status` runs in 35ms thanks to the built-in fsmonitor daemon watching the VFS.
 
 ```console
 $ wxs info vscode00
@@ -74,9 +74,6 @@ The PoC proves the core: VFS-backed workspaces with shared content and copy-on-w
 
 **Cloud sync.** Sync workspace state to the cloud, snapshots included. Pause work on one machine, resume on another. Because workspaces are just metadata plus a content-addressable store, transferring one means syncing a small manifest and letting the target fetch only the blobs it doesn't already have. Moves a multi-GB workspace in seconds. For agents, this means migrating a task mid-execution without losing filesystem state.
 
-**Workspace templates.** Define content that isn't in version control but should be present in every workspace — a 50 GB test dataset, assets from external storage, shared tooling configs. Templates make workspaces reproducible without polluting the repo.
-
-**Unified version control.** Git is the first backend, but the VFS core doesn't know or care about Git. The same `wxs create` / `wxs mount` workflow works whether the backend is Git, Perforce, SVN, or Plastic. Take it further: `wxs commit`, `wxs branch`, `wxs blame` — a single command set regardless of what's underneath. Teams pick the SCM they want; wxs handles the workspace.
 
 <script src="https://unpkg.com/asciinema-player@3.9.0/dist/bundle/asciinema-player.min.js"></script>
 <script>
