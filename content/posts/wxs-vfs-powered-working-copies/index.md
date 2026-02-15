@@ -54,6 +54,25 @@ Git Repository
 
 Workspaces track both version-controlled files and private files (build output, temp files). Git is the first backend but the VFS core is SCM-agnostic — the same architecture can support any version control system that provides a tree and blob fetching.
 
+## What's next
+
+The PoC proves the core: VFS-backed workspaces with shared content and copy-on-write. Here's where it goes from here.
+
+**Automatic snapshots.** The VFS sees every write. That means it can snapshot workspace state at any point — before a build, before an agent run, on a timer. Rollback becomes trivial. Branch from any snapshot to explore alternatives.
+
+**Cache servers.** Content-addressable storage makes caching straightforward. A local or regional cache server can warm up blobs ahead of time, making workspace creation near-instant even for massive repos.
+
+**Auditing.** The VFS layer intercepts every file operation. That's a full audit trail for free — what was read, what was written, when, by which agent or process. Useful for compliance, debugging agent behavior, or understanding how a codebase is actually used.
+
+**Cloud sync with snapshots.** Sync workspace state to the cloud, snapshots included. Pause work on one machine, resume on another. For agents, this means migrating a task mid-execution without losing filesystem state.
+
+**Workspace templates.** Define content that isn't in version control but should be present in every workspace — test files, large assets from external storage, game art. Templates make workspaces reproducible without polluting the repo.
+
+**Quick workspace sharing between machines.** Because workspaces are just metadata plus a content-addressable store, transferring a workspace between computers means syncing a small manifest and letting the target machine fetch only the blobs it doesn't already have. Moves a multi-GB workspace in seconds.
+
+**Universal VCS layer.** A common interaction model for all version controls, making it much easier to switch or adapt. Also provide massive scale for teams with large monorepos without having to develop the infra themselves (like many big players had to do).
+
+**A new filesystem standard for development**. The same FS semantics can be available for macOS, Linux and Windows.
 
 <script src="https://unpkg.com/asciinema-player@3.9.0/dist/bundle/asciinema-player.min.js"></script>
 <script>
