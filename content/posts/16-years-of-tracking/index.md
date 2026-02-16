@@ -95,6 +95,10 @@ For over a decade, my "app" was a spreadsheet — first Excel on Windows, then E
 
 So I built [rows.life](https://rows.life) — the tool I wished I'd had from day one. It's a time tracker that's also a journal. You log rows (just like my spreadsheet), and it turns them into statistics, insights, and a printable diary.
 
+![The diary view — each day reads like a journal, which is what I always wanted from my spreadsheet](./diaryview.png)
+
+![Year in review — the kind of breakdown I used to wrestle out of pivot tables](./yearinreview.png)
+
 It has zero-knowledge encryption (your notes are encrypted in your browser before they leave your device), full data export (your data is yours), and the analytics I spent years wishing my spreadsheet could do.
 
 I'm not going to pretend that everyone needs this. Most people don't want to log every hour. That's fine. But if you're reading this and thinking "I already do something like that" or "I've always wanted to try" — this is for you.
