@@ -2,6 +2,8 @@
 title: "I've tracked 44,000 rows of my life since 2014"
 date: 2026-02-13
 draft: false
+aliases:
+  - /posts/16-years-of-tracking/
 ---
 
 I think most people can't tell you what they did last Tuesday. I'm afraid I can tell you what I did on most Tuesdays since June 3rd, 2014. Every hour, every project, every break, every meeting, every late-night rabbit hole.
