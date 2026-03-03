@@ -1,5 +1,5 @@
 ---
-title: "rows.life: notas técnicas sobre anotar tu vida"
+title: "rows.life: Cómo tomar notas y luego encontrarlas"
 date: 2026-03-03
 draft: false
 ---
