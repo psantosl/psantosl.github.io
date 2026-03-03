@@ -1,7 +1,7 @@
 ---
 title: "rows.life: notas técnicas sobre anotar tu vida"
 date: 2026-03-03
-draft: true
+draft: false
 ---
 
 Hace poco contaba cómo llevo muucho tiempo tomando notas detalladas [en el post de las 44mil filas](/posts/11-years-of-tracking/). Empecé porque quería saber en qué se me iba el tiempo, allá por 2014. Controlaba tareas en un issue tracker custom que teníamos (TTS se llamaba), y metía horas, pero horas "que creía que había dedicado", no que realmente había trackeado.
