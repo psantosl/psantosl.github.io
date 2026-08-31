@@ -123,3 +123,13 @@ Right now committing to main on Git forges requires some serialization, so there
 
 This is definitely more a dream than a prediction, because I love the idea of working with a fully virtual file system that hydrates the files I need from the monorepo on demand, allows me to have unlimited copies of my repo locally with virtually zero cost (copy on write) and greatly improves usability and overall experience. I first saw that 25 years ago in Clearcase (the Xerox PARC of version control to me) and developed a version of that for Plastic, and I saw it is used by the industry giants and many large game developers.  
 There are some barriers for this to happen, though: first is macOS, which makes it virtually impossible to develop fast virtual file systems (I’ve done experiments on Linux and Windows with extraordinary performance, but no way on macOS). Second that maybe agents hide the underlying complexity that much that we no longer care… but speed and disk size would still matter.
+
+# The best time in twenty years
+
+In 2005 a dozen version control systems fought to replace Bitkeeper, and the winner ended up ruling software development for two decades. Nobody in that race predicted that the decisive factor would be a hosting site with a social network on top.
+
+I don’t know who wins this time either. Maybe GitHub adapts, like Microsoft always eventually does. Maybe one of the forges above becomes the default home for agent-written code. Maybe the winner is a paradigm — centralized monorepos, versioned workspaces, first-class conflicts — more than a product.
+
+What I do know is that the freeze is over. For twenty years the interesting question in version control was “how do we cope with Git?” Now it is “what comes after?” — and after spending my whole career in this field, competing against Git, advising the challengers, and now working on making Git itself faster than anyone thought possible, I can tell you: there has never been a better moment to be building version control.
+
+Ask me again in two years. Or, the way 2026 is going, ask me in two months.
