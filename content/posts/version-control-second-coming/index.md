@@ -34,7 +34,7 @@ After that, I saw a good number of version controls come and go: Accurev was a f
 
 # 2005 was the last big explosion
 
-Circa 2025 there was a race to win the versioning of the Linux Kernel. Bitkeeper had to be replaced (it is a story on its own) and Mercurial, Darcs, and a few others wanted to win that crown. To be honest, my dream when I was trying to get Plastic SCM started was also to version the Linux kernel. In my head it looked fantastic, little I knew a commercial product would never be even remotely considered for that. But only if you are naïve enough you would start a new version control, I guess.  
+Circa 2005 there was a race to win the versioning of the Linux Kernel. Bitkeeper had to be replaced (it is a story on its own) and Mercurial, Darcs, and a few others wanted to win that crown. To be honest, my dream when I was trying to get Plastic SCM started was also to version the Linux kernel. In my head it looked fantastic, little I knew a commercial product would never be even remotely considered for that. But only if you are naïve enough you would start a new version control, I guess.  
 As I remember it, Git was announced the very same week we got our first ever angel investor signed, in early summer of 2005\. The fact that Linus Torvalds himself was creating such a system made me think the road ahead was going to be harder than I had anticipated.  
 Git was a revolution, and a little bit later, around 2008, GitHub brought it to the masses and the rest is history.  
 It was incredible to see the new systems coming around that time, Git and Mercurial being probably the two most heavily adopted.
@@ -47,12 +47,12 @@ I’m sure I’ll forget some very relevant initiative, but here go the key ones
 
 ## Entire
 
-Everybody was shocked when the former CEO of GitHub announced a gigantic seed round for his new venture, a new version control system solution based on Git.  
+Everybody was shocked when Thomas Dohmke, the former CEO of GitHub, announced a gigantic seed round for his new venture, a new version control system solution based on Git.  
 They have released *provenance tracking* to basically know what code which agent created and which prompt, which I believe is going to be a must in how we handle version control, and also a number of performance improvements (like super fast clones thanks to distributed replicas worldwide). 
 
 ## Pierre
 
-Visiting their website is an experience by itself (not sure how long this will last) because it is quite different to anything else. Pierre has released better diffs and better trees, open source, so anybody can empower their code UIs with them, but then focused on code.starage, their Git forge for the agentic reality.  
+Visiting their website is an experience by itself (not sure how long this will last) because it is quite different to anything else. Pierre has released better diffs and better trees, open source, so anybody can empower their code UIs with them, but then focused on code.storage, their Git forge for the agentic reality.  
 GitHub hit a wall in terms of performance when dealing with an incredibly high increase of commits, PRs, and traffic in general, and code.storage positioned itself as the solution for all platforms using repositories underneath, at AI scale.  
 In recent posts in X they unveiled how Lovable and other massive AI solutions rely on their system to handle repositories.  
 It is, definitely, one of the most promising Git based solutions out there.
@@ -97,7 +97,7 @@ Oxen is not in the same *forge race* as the others, but they are a good example 
 
 ## Lore\!
 
-To build on the excitement, even Unreal released their open source version control, Lore, with an eye on the large monorepos/gaming industry. It is a complete full stack, not based on Git, which makes it very different and exciting. It shares an underlying DAG (directed acyclic graph) like Git, improvements to deal with big binaries, optimized data transfer based on modern algorithms to patch only what changes and avoid unnecessary downloads… and while it looks centralized to me, it seems it can also work disconnected.
+To build on the excitement, even Epic Games released their open source version control, Lore, with an eye on the large monorepos/gaming industry. It is a complete full stack, not based on Git, which makes it very different and exciting. It shares an underlying DAG (directed acyclic graph) like Git, improvements to deal with big binaries, optimized data transfer based on modern algorithms to patch only what changes and avoid unnecessary downloads… and while it looks centralized to me, it seems it can also work disconnected.
 
 # What to expect in the coming future
 
@@ -115,9 +115,9 @@ My bet is that distributed with push/pull instead of simply commit will be limit
 
 ## Super fast commit speed
 
-Right now committing to main on Git forges requires some serialization, so there is a limit in the speed of those commits. Google broke this barrier with their internal Piper solution (which backs Jujutsu) years ago, and I think we’ll see solutions revisiting this idea.
+Right now committing to main on Git forges requires some serialization, so there is a limit in the speed of those commits. Google broke this barrier with their internal Piper solution years ago (and it is also what Jujutsu talks to internally at Google, instead of the Git backend we can use outside), and I think we’ll see solutions revisiting this idea.
 
 ## Virtual files systems everywhere
 
-This is definitely more a dream than a prediction, because I love the idea of working with a fully virtual file system that hydrates the files I need from the monorepo on demand, allows me to have unlimited copies of my repo locally with virtually zero cost (copy on write) and greatly improves usability and overall experience. I first saw that 25 years ago in Clearcase (the Xerox Park of version control to me) and developed a version of that for Plastic, and I saw it is used by the industry giants and many large game developers.  
+This is definitely more a dream than a prediction, because I love the idea of working with a fully virtual file system that hydrates the files I need from the monorepo on demand, allows me to have unlimited copies of my repo locally with virtually zero cost (copy on write) and greatly improves usability and overall experience. I first saw that 25 years ago in Clearcase (the Xerox PARC of version control to me) and developed a version of that for Plastic, and I saw it is used by the industry giants and many large game developers.  
 There are some barriers for this to happen, though: first is macOS, which makes it virtually impossible to develop fast virtual file systems (I’ve done experiments on Linux and Windows with extraordinary performance, but no way on macOS). Second that maybe agents hide the underlying complexity that much that we no longer care… but speed and disk size would still matter.
