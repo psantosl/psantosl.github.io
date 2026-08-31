@@ -10,8 +10,6 @@ sitemap:
   disable: true
 ---
 
-# Version control second coming
-
 While we all stopped coding manually around December 2025, something else was cooking: the biggest revolution in version control since 2005\.  
 Two big pushes happening simultaneously: the need to handle a much higher commit pace due to agents, and a sudden urge to replace GitHub.  
 I’m going to reflect about these two forces plus what we can probably expect in the near future from version control as it both adapts and supports new ways of developing software.  
@@ -123,7 +121,3 @@ Right now committing to main on Git forges requires some serialization, so there
 
 This is definitely more a dream than a prediction, because I love the idea of working with a fully virtual file system that hydrates the files I need from the monorepo on demand, allows me to have unlimited copies of my repo locally with virtually zero cost (copy on write) and greatly improves usability and overall experience. I first saw that 25 years ago in Clearcase (the Xerox Park of version control to me) and developed a version of that for Plastic, and I saw it is used by the industry giants and many large game developers.  
 There are some barriers for this to happen, though: first is macOS, which makes it virtually impossible to develop fast virtual file systems (I’ve done experiments on Linux and Windows with extraordinary performance, but no way on macOS). Second that maybe agents hide the underlying complexity that much that we no longer care… but speed and disk size would still matter.
-
-# Extras (discard?)
-
-December 2025 will be remembered as the moment when we stopped writing code manually and AI took over. I experienced that moment both while being engaged as a consultant with some of my customers, but also in my side projects. But while that was happening, I got extremely excited about something else: in my career in version control I had never seen so many different projects being developed. It was probably the hottest moment in version control.  
