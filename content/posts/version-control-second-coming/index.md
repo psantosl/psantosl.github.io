@@ -10,10 +10,13 @@ sitemap:
   disable: true
 ---
 
-While we all stopped coding manually around December 2025, something else was cooking: the biggest revolution in version control since 2005\.  
+The very same week we signed our first ever angel investor for Plastic SCM, in early summer of 2005, Linus Torvalds announced Git. I had spent more than a year pitching investors to build a new version control, and suddenly the creator of Linux was building one himself. That week I understood the road ahead was going to be much harder than I had anticipated.
+
+I hadn’t felt that same electricity again in twenty years. Until a few months ago.
+
+While we all stopped coding manually around December 2025, something else was cooking: the biggest revolution in version control since 2005.  
 Two big pushes happening simultaneously: the need to handle a much higher commit pace due to agents, and a sudden urge to replace GitHub.  
-I’m going to reflect about these two forces plus what we can probably expect in the near future from version control as it both adapts and supports new ways of developing software.  
-Having spent my career in version control, what I can share is that I haven’t seen a more exciting moment since 2005, when distributed version controls landed.
+I’m going to reflect about these two forces plus what we can probably expect in the near future from version control as it both adapts and supports new ways of developing software.
 
 # The fall of the giants
 
@@ -35,8 +38,7 @@ After that, I saw a good number of version controls come and go: Accurev was a f
 # 2005 was the last big explosion
 
 Circa 2005 there was a race to win the versioning of the Linux Kernel. Bitkeeper had to be replaced (it is a story on its own) and Mercurial, Darcs, and a few others wanted to win that crown. To be honest, my dream when I was trying to get Plastic SCM started was also to version the Linux kernel. In my head it looked fantastic, little I knew a commercial product would never be even remotely considered for that. But only if you are naïve enough you would start a new version control, I guess.  
-As I remember it, Git was announced the very same week we got our first ever angel investor signed, in early summer of 2005\. The fact that Linus Torvalds himself was creating such a system made me think the road ahead was going to be harder than I had anticipated.  
-Git was a revolution, and a little bit later, around 2008, GitHub brought it to the masses and the rest is history.  
+Then Git entered the race — the same announcement that shook me that summer — and won it. It was a revolution, and a little bit later, around 2008, GitHub brought it to the masses and the rest is history.  
 It was incredible to see the new systems coming around that time, Git and Mercurial being probably the two most heavily adopted.
 
 # The second explosion
