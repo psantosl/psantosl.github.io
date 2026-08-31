@@ -18,6 +18,8 @@ While we all stopped coding manually around December 2025, something else was co
 Two big pushes happening simultaneously: the need to handle a much higher commit pace due to agents, and a sudden urge to replace GitHub.  
 I’m going to reflect about these two forces plus what we can probably expect in the near future from version control as it both adapts and supports new ways of developing software.
 
+Fair warning: I’m anything but neutral. I spent twenty years competing against Git with Plastic SCM, I spent about two years advising Activision on their gigantic monorepo, I advise Diversion, and I now work at Origin making Git faster than anyone thought possible — so I’ve seen this fight from every corner of the ring.
+
 # The fall of the giants
 
 If only 2 years ago somebody said GitHub would be no longer relevant soon, nobody would believe them. GitHub was the undisputed leader in repository hosting, and it also shaped the way developers thought about version control. Having spent too much time as a competitor (more about that later) I suffered that: if something was different than what people understood it was ‘the way GitHub does things’ it was probably wrong.  
@@ -64,7 +66,7 @@ It is, definitely, one of the most promising Git based solutions out there.
 It was the last I heard about, but when I did I really realized something big was happening in the industry. Cursor (now SpaceXAI) working on their own Git forge too? Amazing.  
 Origin is also a full Git forge, with a full solution for pull requests, repo hosting, etc, and has focused on performance and reliability so far, but like all the other Git platforms, this is just the start of a quite exciting trip.  
 My friend and colleague Vmg posted an incredible writing about origin internals ([https://cursor.com/blog/git-at-any-scale](https://cursor.com/blog/git-at-any-scale)) that spiked an ‘WAL S3’ discussion on X for a few weeks. People like Scott Chacon and Tobias Lütke implemented their own versions in the next few days, inspired by Vmg’s post.  
-Disclaimer: I joined the Origin team a few months ago to work full time again on version control internals, this time instead of racing against Git, I’m trying to make it as fast as I can.
+This is the team I joined a few months ago, as I said, to work full time again on version control internals — so judge my enthusiasm accordingly. This time, instead of racing against Git, I’m trying to make it as fast as I can.
 
 ## GitButler
 
