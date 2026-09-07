@@ -2,12 +2,6 @@
 title: "Version control second coming"
 date: 2026-09-01
 draft: false
-build:
-  list: never
-  render: always
-  publishResources: true
-sitemap:
-  disable: true
 ---
 
 The very same week we signed our first ever angel investor for Plastic SCM, in early summer of 2005, Linus Torvalds announced Git. I had spent more than a year pitching investors to build a new version control, and suddenly the creator of Linux was building one himself. That week I understood the road ahead was going to be much harder than I had anticipated.
