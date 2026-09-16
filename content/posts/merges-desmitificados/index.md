@@ -6,6 +6,8 @@ draft: false
 
 > *This post was originally published on [Medium](https://medium.com/@psluaces/merges-desmitificados-fb6a1cbc3807).*
 
+(This blogpost is available in English [here](/posts/merges-demystified/)).
+
 Hacer merges es fácil si sabes dos cosas:
 
 1.  Que hay 3 versiones del fichero que estás _mergeando_ implicadas.
