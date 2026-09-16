@@ -61,8 +61,6 @@ Sometimes this happens, and then merge tools need a human to decide:
 
 ![](./3.webp)
 
-(In the diagram, ‘tuyo’ is yours, ‘mío’ is mine, and ‘base’ is the base.)
-
 You put a 15 on line 50 where there used to be a 20, and I put a 25.
 
 This is what is called a ‘manual conflict’ and it is when you have to use a mergetool, or if you don’t have one, that thing with >>>>>>>>>>>> that nobody understands.
@@ -149,7 +147,7 @@ Let’s see why, with drawings.
 
 ![](./8.webp)
 
-After the merge you kept your changes (bloque\_importante()), and you brought in the changes from ‘main’ on lines 30 and 70 (print(“**bye** world”) and print(result **\+ 1**)).
+After the merge you kept your changes (important\_block()), and you brought in the changes from ‘main’ on lines 30 and 70 (print(“**bye** world”) and print(result **\+ 1**)).
 
 But, for whatever reason, you decided not to keep ‘save\_to\_database()’ thinking that the magic of the merge will save the situation later on.
 
@@ -159,7 +157,7 @@ So you keep working on your branch, and a while later that branch has to go into
 
 Since your version control ‘remembers’ the merges, now the base of your merge is the commit marked in orange.
 
-And what happens to your file? Let’s see: I’m going to assume that in main there is only one additional change to the file on line 30 (easy) and in your case you kept changing things in the final block, which I now call bloque\_2.
+And what happens to your file? Let’s see: I’m going to assume that in main there is only one additional change to the file on line 30 (easy) and in your case you kept changing things in the final block, which I now call block\_2.
 
 ![](./10.webp)
 
@@ -167,13 +165,11 @@ What will happen during the merge? Let’s put the files ‘in order’ with the
 
 ![](./11.webp)
 
-(In the diagram, ‘head en main’ is the head of main, ‘cómo estaba’ is how it was, and ‘tu rama’ is your branch.)
-
 The new change on line 30 in main goes in without conflict (there are no changes in the other two contributors).
 
-Your “print(“guardar”)” on line 50 ‘wipes out’ the save\_to\_database() (which looks important) because that is what you decided in the previous merge.
+Your “print(“save”)” on line 50 ‘wipes out’ the save\_to\_database() (which looks important) because that is what you decided in the previous merge.
 
-And your bloque\_2() will also go in automatically.
+And your block\_2() will also go in automatically.
 
 That is, you have “lost” the ‘save\_to\_database’ because you deleted it in the previous merge.
 
