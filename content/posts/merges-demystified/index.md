@@ -1,6 +1,6 @@
 ---
 title: "Merges demystified"
-date: 2025-11-05
+date: 2026-09-16
 draft: false
 ---
 
